@@ -1,6 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  name: redis-deploy
+  labels:
     name: redis-pod
     app: demo-voting-app
 spec:
